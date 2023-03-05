@@ -189,6 +189,37 @@
                 display: flex;
                 align-items: center;
               }
+              &-arrows{
+                display: flex;
+                gap: 34px;
+                margin-top: 10px;
+                &-prev:hover{
+                  border: 2px solid rgb(178, 178, 178);
+                }
+                &-next:hover{
+                  border: 2px solid rgb(170, 170, 170);
+                }
+                &-next{
+                   display: flex;
+                   align-items: center;
+                   text-align: center;
+                   justify-content: center;
+                   width: 40px;
+                   font-size: larger;
+                   height: 40px;
+                   border-radius: 50%;
+                }
+                &-prev{
+                  justify-content: center;
+                  font-size: larger;
+                  display: flex;
+                  align-items: center;
+                  text-align: center;
+                  border-radius: 50%;
+                  width: 40px;
+                  height: 40px;
+                }
+              }
             }
           }
         }
