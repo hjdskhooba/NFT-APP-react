@@ -60,7 +60,7 @@ li {
   box-sizing: border-box;
 }
 .container { 
-  // overflow: hidden;
+  overflow: hidden;
   max-width: 1440px;
   padding: 0 160px;
   margin: 0 auto;
@@ -77,5 +77,8 @@ li {
   @media (max-width: 375px) {
     max-width: 375px;
     padding: 0 35.5px;
+  }
+  @media (max-width: 972px) {
+    padding: 0 45.5px;
   }
 }
