@@ -24,6 +24,9 @@
       font-size: 40px;
       line-height: 48px;
       letter-spacing: -0.01em;
+      @media (max-width: 500px) {
+        font-size: 32px;
+      }
     }
     & > p {
       color: #777e91;
@@ -387,7 +390,8 @@
       font-size: 12px;
     }
     &-column{
-      // flex-wrap: wrap;
+      overflow: hidden;
+      overflow-x: auto;
       @media (max-width: 1230px) {
         // flex-wrap: wrap;
         justify-content: space-between;

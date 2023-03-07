@@ -48,6 +48,9 @@
 .dmsans{
   font-family: 'DM Sans';
 }
+a:active{
+  color: #777E91;
+}
 a {
   text-decoration: none;
 }
@@ -58,6 +61,12 @@ li {
 ::before,
 ::after {
   box-sizing: border-box;
+}
+button:active{
+  cursor: default;
+}
+button{
+  cursor: pointer;
 }
 .container { 
   overflow: hidden;
