@@ -5,51 +5,51 @@
   user-zoom: none;
   box-sizing: border-box;
 }
-.f700{
+.f700 {
   font-weight: 700;
 }
-.f500{
+.f500 {
   font-weight: 500;
 }
-.disflex{
+.disflex {
   display: flex;
 }
-.tcenter{
+.tcenter {
   justify-content: center;
   text-align: center;
 }
-.acenter{
+.acenter {
   align-items: center;
 }
-.f400{
+.f400 {
   font-weight: 400;
 }
-.f600{
+.f600 {
   font-weight: 600;
 }
-.border2{
+.border2 {
   border: 2px solid #e6e8ec;
 }
-.cht2{
-  color: #23262F;
+.cht2 {
+  color: #23262f;
 }
-.cht4{
+.cht4 {
   color: #141416;
 }
-.likewhite{
-  color: #FCFCFD;
+.likewhite {
+  color: #fcfcfd;
 }
-.likegray{
-  color: #777E91;
+.likegray {
+  color: #777e91;
 }
-.poppins{
-  font-family: 'Poppins';
+.poppins {
+  font-family: "Poppins";
 }
-.dmsans{
-  font-family: 'DM Sans';
+.dmsans {
+  font-family: "DM Sans";
 }
-a:active{
-  color: #777E91;
+a:active {
+  color: #777e91;
 }
 a {
   text-decoration: none;
@@ -62,19 +62,19 @@ li {
 ::after {
   box-sizing: border-box;
 }
-button:active{
+button:active {
   cursor: default;
 }
-button{
+button {
   cursor: pointer;
 }
-.container { 
+.container {
   overflow: hidden;
   max-width: 1440px;
   padding: 0 160px;
   margin: 0 auto;
   @media (max-width: 1422px) {
-    padding: 0 80px;  
+    padding: 0 80px;
   }
   @media (max-width: 1024px) {
     max-width: 1024px;
@@ -91,6 +91,7 @@ button{
     padding: 0 45.5px;
   }
 }
-// Перехожу на БЭМ ! (12.03.2023) 
-@import './discover.scss';
-@import './header.scss'
+// Перехожу на БЭМ ! (12.03.2023)
+@import "/src/pages/Discover/discover.scss";
+@import "/src/Layout/Header/header.scss";
+@import "/src/Layout/Footer/footer.scss";

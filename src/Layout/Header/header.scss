@@ -1,0 +1,102 @@
+.header {
+    height: 81px;
+    border: 1px solid #e6e8ec;
+    &__inner,
+    &__left,
+    &__right,
+    &__nav,
+    &__search__block,
+    &__search {
+      display: flex;
+      align-items: center;
+    }
+    &__right {
+      @media (max-width: 592px) {
+        display: none;
+      }
+    }
+    &__line {
+      height: 40px;
+      border-left: 1px solid #e6e8ec;
+      border-right: 1px solid #e6e8ec;
+    }
+    &__nav {
+      font-family: "DM Sans";
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      margin-left: 32px;
+      width: 170px;
+      justify-content: space-between;
+      @media (max-width: 1233px) {
+        display: none;
+      }
+    }
+    &__search {
+      width: 256px;
+      height: 40px;
+      border-radius: 8px;
+      padding: 10px 0 10px 16px;
+      position: relative;
+      font-family: "Poppins";
+      border: 2px solid #e6e8ec;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      &-button {
+        position: absolute;
+        margin-left: 227px;
+      }
+      @media (max-width: 848px) {
+        display: none;
+        &-button {
+          display: none;
+        }
+      }
+    }
+    &__connect-btn,
+    &__upload-btn {
+      font-family: "DM Sans";
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+    }
+    &__connect-btn {
+      background: white;
+      border: 2px solid #e6e8ec;
+      border-radius: 90px;
+      margin-left: 12px;
+      padding: 12px 16px;
+    }
+    &__notif {
+      margin: 0 24px;
+    }
+    &__upload-btn {
+      color: white;
+      border: none;
+      background: #3772ff;
+      padding: 12px 16px;
+      border-radius: 90px;
+    }
+    &__inner {
+      height: 81px;
+      justify-content: space-between;
+    }
+    &__logo {
+      background-image: url("/images/logo.svg");
+      background-size: cover;
+      background-position: -43px center;
+      background-repeat: no-repeat;
+      @media (max-width: 665px) {
+        background-position: -33px center;
+      }
+      width: 126px;
+      height: 32px;
+    }
+    &__burger {
+      @media (min-width: 592px) {
+        display: none;
+      }
+    } 
+  }
+  
