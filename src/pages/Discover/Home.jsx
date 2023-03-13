@@ -4,8 +4,9 @@ import Auction from "./Auction/Auction";
 import Feed from './Feed/Feed';
 import TopCreators from "./TopCreators/TopCreators";
 import Hotbid from "./Hotbid/Hotbid";
+import Hotcollections from "./Hotcollections/Hotcollections";
 
-const Discover = () => {
+const Home = () => {
   return (
     <main>
       {/* ----------Main Title---------- */}
@@ -18,7 +19,9 @@ const Discover = () => {
         <TopCreators/>
       {/* ----------Hot Bid---------- */}
         <Hotbid/>
+      {/* ----------Hot Collections---------- */}
+        <Hotcollections/>
     </main>
   );
 };
-export default Discover;
+export default Home;

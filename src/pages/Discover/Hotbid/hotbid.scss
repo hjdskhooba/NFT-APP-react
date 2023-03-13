@@ -7,10 +7,7 @@
     margin-bottom: 64px;
   }
   overflow-x: hidden;
-  position: relative;
-  &__inner{
-    overflow-x: hidden;
-  }
+  position: relative;   
   &__cards {
     z-index: 66;
     overflow-x: auto;

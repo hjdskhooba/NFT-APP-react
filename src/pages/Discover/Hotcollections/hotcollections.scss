@@ -1,0 +1,56 @@
+.hotCollections{
+    h2{
+        margin-bottom: 80px;
+    }
+    padding: 125px 0;
+    background: #F4F5F6;
+    &__block{
+        width: 352px;
+        height: 405px;
+        .top-img{
+            width: 352px;
+            height: 240px;
+            background-image: url('../../../../images/discover/hot-collections/bird.png');
+        }   
+        .bottom-images{
+            justify-content: space-between;
+            margin-top: 8px;
+            .first{
+                background-image: url('../../../../images/discover/hot-collections/spida.png');
+            }
+            .second{
+                background-image: url('../../../../images/discover/hot-collections/02-1.png');
+            }
+            .third{
+                background-image: url('../../../../images/discover/hot-collections/02-2.png');
+            }
+            .first, .second, .third{
+                width: 112px;
+                height: 75px;
+            }
+        }
+    }
+    .subtitle{
+        margin-top: 12px;
+    }
+    .forjcsb{
+        gap: 32px;
+    }
+    &__author{
+        justify-content: space-between;
+        &_left > div{
+            width: 24px;
+            height: 24px;
+        }
+        .pshka{
+            margin-left: 12px;
+            font-size: 14px;
+        }
+        span{
+            border: 2px solid #E6E8EC;
+            border-radius: 4px;
+            font-size: 12px;
+            padding: 5px 7px;
+        }
+    }
+}

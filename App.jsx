@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import Layout from "./src/Layout/Layout"
-import Discover from "./src/pages/Discover/Discover"
+import Home from "./src/pages/Discover/Home"
 import Faq from "./src/pages/faq"
 import Profile from "./src/pages/Profile"
 import Upload from "./src/pages/Upload"
@@ -10,7 +10,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout/>}>
-        <Route path="" element={<Discover/>}/>
+        <Route path="" element={<Home/>}/>
         <Route path="/faq" element={<Faq/>}/>
         <Route path="/upload" element={<Upload/>}/>
         <Route path="/profile" element={<Profile/>}/>

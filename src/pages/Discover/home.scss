@@ -8,6 +8,12 @@
     font-size: 32px;
   }
 }
+.subtitle{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 24px;
+  color: #23262f
+}
 @import "./Title/title.scss";
 //////////////////////////////////////////////////////////////////////////////////////////////////////////auction-block
 @import "./Auction/auction.scss";
@@ -71,3 +77,4 @@
 @import "./TopCreators/topcreators.scss";
 //////////////////////////////////////////////////////////////////////////////////////////////////////////Top creators
 @import "./Hotbid/hotbid.scss";
+@import "./Hotcollections/hotcollections.scss";

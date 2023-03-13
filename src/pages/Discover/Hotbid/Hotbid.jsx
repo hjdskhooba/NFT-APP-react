@@ -2,7 +2,6 @@ import React from 'react'
 import item1 from '../../../../images/discover/hotbid/01.png'
 import item2 from '../../../../images/discover/hotbid/product img-1.png'
 import item3 from '../../../../images/discover/hotbid/product img-2.png'
-import item4 from '../../../../images/discover/hotbid/product img.png'
 import pricon from '../../../../images/discover/hotbid/pr.svg'
 
 const Hotbid = () => {
@@ -47,7 +46,7 @@ const Hotbid = () => {
                         </div>
                         <div className="hotbid__cards card">
                             <div className="card_img">
-                                <img src={item1} alt="" />
+                                <img src={item2} alt="" />
                                 <button className='place-a-bid-btn'>Place a bid <img src={pricon} alt="" /></button>
                             </div>
                             <div className="hotbid__cards_description disflex acenter">
@@ -73,7 +72,7 @@ const Hotbid = () => {
                         </div>
                         <div className="hotbid__cards card">
                             <div className="card_img">
-                                <img src={item1} alt="" />
+                                <img src={item3} alt="" />
                                 <button className='place-a-bid-btn'>Place a bid <img src={pricon} alt="" /></button>
                             </div>
                             <div className="hotbid__cards_description disflex acenter">
@@ -99,7 +98,7 @@ const Hotbid = () => {
                         </div>
                         <div className="hotbid__cards card last">
                             <div className="card_img">
-                                <img src={item1} alt="" />
+                                <img src={item2} alt="" />
                                 <button className='place-a-bid-btn'>Place a bid <img src={pricon} alt="" /></button>
                             </div>
                             <div className="hotbid__cards_description disflex acenter">
