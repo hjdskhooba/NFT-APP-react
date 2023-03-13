@@ -1,3 +1,40 @@
+.place-a-bid-btn:hover {
+  color: white;
+  background-color: #3772ff;
+  border: none;
+}
+.place-a-bid-btn {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 14px;
+  border: 2px solid #e6e8ec;
+  background-color: white;
+  border-radius: 90px;
+  padding: 8px 12px;
+  align-items: center;
+  border: none;
+  &>img{
+    height: 14px;
+  }
+}
+.greennum {
+  margin-top: 10px;
+  color: #45b36b;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 12px;
+  border-radius: 4px;
+  justify-content: center;
+  width: 68px;
+  height: 26px;
+  border: 2px solid #45b36b;
+  font-family: 'Poppins';
+  font-weight: 700;
+}
+.place-a-bid-btn{
+  
+}
 .feed__fordf {
     @media (max-width: 1231px) {
       display: block;
@@ -74,19 +111,6 @@
           &-p1 {
             font-size: 12px;
           }
-          &-p2 {
-            margin-top: 10px;
-            color: #45b36b;
-            display: flex;
-            text-align: center;
-            align-items: center;
-            font-size: 12px;
-            border-radius: 4px;
-            justify-content: center;
-            width: 68px;
-            height: 26px;
-            border: 2px solid #45b36b;
-          }
         }
       }
     }
@@ -111,16 +135,6 @@
         height: 148px;
         &-descrip {
           margin-left: 24px;
-          & > button:hover {
-            color: white;
-            background-color: #3772ff;
-          }
-          & > button {
-            border: 2px solid #e6e8ec;
-            background-color: white;
-            border-radius: 90px;
-            padding: 8px 12px;
-          }
           & > div {
             gap: 11px;
             margin: 8px 0 16px;

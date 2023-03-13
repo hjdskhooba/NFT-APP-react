@@ -3,6 +3,7 @@ import Title from "./Title/Title";
 import Auction from "./Auction/Auction";
 import Feed from './Feed/Feed';
 import TopCreators from "./TopCreators/TopCreators";
+import Hotbid from "./Hotbid/Hotbid";
 
 const Discover = () => {
   return (
@@ -15,6 +16,8 @@ const Discover = () => {
         <Feed/>
       {/* Теперь буду давать классы согласно БЭМ ! */}
         <TopCreators/>
+      {/* ----------Hot Bid---------- */}
+        <Hotbid/>
     </main>
   );
 };

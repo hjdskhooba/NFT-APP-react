@@ -30,7 +30,7 @@ const Feed = () => {
                 <p className="feed__block__inner-left-info-right-p1 poppins f400 likegray">
                   Highest bid
                 </p>
-                <p className="feed__block__inner-left-info-right-p2 poppins f700">
+                <p className="greennum">
                   1.125 ETH
                 </p>
               </div>
@@ -48,14 +48,14 @@ const Feed = () => {
                 <h4 className="poppins f500 cht2">ETH never die</h4>
                 <div className="disflex acenter">
                   <div className="avatar24"></div>
-                  <p className="feed__block__inner-left-info-right-p2 scrrra poppins f700">
+                  <p className="greennum scrrra">
                     0.27 ETH
                   </p>
                   <p className="ptwoforthis poppins f400 likegray">
                     1 of 12
                   </p>
                 </div>
-                <button className="dmsans f600 cht2">Place a bid</button>
+                <button className="place-a-bid-btn">Place a bid</button>
               </div>
             </div>
             <div className="feed__block__inner-middle-middle disflex acenter">
@@ -68,14 +68,14 @@ const Feed = () => {
                 <h4 className="poppins f500 cht2">Future coming soon</h4>
                 <div className="disflex acenter">
                   <div className="avatar24"></div>
-                  <p className="feed__block__inner-left-info-right-p2 scrrra poppins f700">
+                  <p className="greennum scrrra">
                     0.27 ETH
                   </p>
                   <p className="ptwoforthis poppins f400 likegray">
                     1 of 3
                   </p>
                 </div>
-                <button className="dmsans f600 cht2">Place a bid</button>
+                <button className="place-a-bid-btn">Place a bid</button>
               </div>
             </div>
             <div className="feed__block__inner-middle-bottom disflex acenter">
@@ -90,14 +90,14 @@ const Feed = () => {
                 </h4>
                 <div className="disflex acenter">
                   <div className="avatar24"></div>
-                  <p className="feed__block__inner-left-info-right-p2 scrrra poppins f700">
+                  <p className="greennum scrrra">
                     0.27 ETH
                   </p>
                   <p className="ptwoforthis poppins f400 likegray">
                     1 of 4
                   </p>
                 </div>
-                <button className="dmsans f600 cht2">Place a bid</button>
+                <button className="place-a-bid-btn">Place a bid</button>
               </div>
             </div>
           </div>
