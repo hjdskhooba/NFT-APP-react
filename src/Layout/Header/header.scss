@@ -10,11 +10,6 @@
       display: flex;
       align-items: center;
     }
-    &__right {
-      @media (max-width: 592px) {
-        display: none;
-      }
-    }
     &__line {
       height: 40px;
       border-left: 1px solid #e6e8ec;

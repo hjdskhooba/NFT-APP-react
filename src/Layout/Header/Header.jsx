@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
+  const [theme, setTheme] = useState('')
+  if(theme === ''){
+    document.body.children[0].style.background = 'white'
+    document.body.children[0].style.color = 'black'
+  }else{
+    document.body.children[0].style.background = 'black'
+    document.body.children[0].style.color = 'white'
+  }
   return (
     <header className="header">
       <div className="container">
@@ -11,6 +19,7 @@ const Header = () => {
               <div className="header__logo"></div>
             </Link>
             <div className="header__line"></div>
+            <button className="change-theme" onClick={()=>theme == '' ? setTheme(' ') : setTheme('')}>{theme}</button>
             <div className="header__nav">
               <Link to="/">
                 <p>Discover</p>

@@ -48,7 +48,7 @@ const TopCreators = () => {
             <div className="card__item__head disflex acenter">
                 <div className="card__item__head-left disflex acenter tcenter">
                   <img height='16px' src={cardHeadIcon} alt="" />
-                  <small className="poppins f600">#1</small>
+                  <small className="poppins f600">#2</small>
                 </div>
                 <div className="card__item__head-right">
                   <img src={cardHeadIconR} alt="" />
@@ -66,7 +66,7 @@ const TopCreators = () => {
             <div className="card__item__head disflex acenter">
                 <div className="card__item__head-left disflex acenter tcenter">
                   <img height='16px' src={cardHeadIcon} alt="" />
-                  <small className="poppins f600">#1</small>
+                  <small className="poppins f600">#2</small>
                 </div>
                 <div className="card__item__head-right">
                   <img src={cardHeadIconR} alt="" />
@@ -84,7 +84,7 @@ const TopCreators = () => {
             <div className="card__item__head disflex acenter">
                 <div className="card__item__head-left disflex acenter tcenter">
                   <img height='16px' src={cardHeadIcon} alt="" />
-                  <small className="poppins f600">#1</small>
+                  <small className="poppins f600">#4</small>
                 </div>
                 <div className="card__item__head-right">
                   <img src={cardHeadIconR} alt="" />
@@ -102,7 +102,7 @@ const TopCreators = () => {
             <div className="card__item__head disflex acenter">
                 <div className="card__item__head-left disflex acenter tcenter">
                   <img height='16px' src={cardHeadIcon} alt="" />
-                  <small className="poppins f600">#1</small>
+                  <small className="poppins f600">#5</small>
                 </div>
                 <div className="card__item__head-right">
                   <img src={cardHeadIconR} alt="" />
