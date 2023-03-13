@@ -9,6 +9,7 @@
     &--container{
       overflow: hidden;
       overflow-x: auto;
+      justify-content: space-between;
       b:hover{
         border: none;
       }
@@ -16,6 +17,10 @@
       b{
         display: none;
       }
+      padding-left: 70px;
+      }
+      @media (max-width: 973px) {
+        padding-left: 40px;
       }
       height: 263px;
       max-width: 1264px;
@@ -77,9 +82,12 @@
     &__cards{
       z-index: 1;
       height: 263px;
-      padding: 0 40px;
+      /* padding: 0 40px; */
+      margin: 0 auto;
+      width: 1120px;
       display: flex;
-      gap: 36px;
+      /* gap: 36px; */
+      justify-content: space-between;
       &__item:hover{
         height: 263px;
         box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);      
