@@ -53,21 +53,6 @@
           }
         }
       }
-      button {
-        background-color: #3772ff;
-        padding: 16px 24px;
-        border-radius: 90px;
-        font-size: 16px;
-        line-height: 16px;
-        color: #fcfcfd;
-        border: none;
-        @media (max-width: 707px) {
-          width: 100%;
-          & > img {
-            display: none;
-          }
-        }
-      }
     }
     &_filters {
         @media (max-width: 707px) {
@@ -135,14 +120,14 @@
         position: relative;
         overflow-x: auto;
         &::-webkit-scrollbar{
-            width: 0;
+          width: 0;
             height: 0;
-        }
+          }
     }
   }
   .arrows{
     @media (min-width: 707px) {
-        display: none;
+      display: none;
     }
     margin-top: 15px;
     gap: 20px;
@@ -157,9 +142,25 @@
     background-color: #FCFCFD;
     img{
         padding-left: 12px;
-    }
+      }
     @media (max-width: 707px) {
-        display: none;
+      display: none;
+    }
+  }
+}
+
+.discover_nav-btn {
+  background-color: #3772ff;
+  padding: 16px 24px;
+  border-radius: 90px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fcfcfd;
+  border: none;
+  @media (max-width: 707px) {
+    width: 100%;
+    & > img {
+      display: none;
     }
   }
 }

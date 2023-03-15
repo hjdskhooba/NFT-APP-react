@@ -13,11 +13,6 @@
     overflow-x: auto;
     width: 1123px;
     gap: 33px;
-    .card.last {
-      @media (max-width: 1100px) {
-        display: none;
-      }
-    }
     .card {
       transition: 400ms;
       overflow: hidden;
@@ -59,7 +54,7 @@
       padding-bottom: 12px;
       div {
         position: absolute;
-        display: inline-block;
+        // display: inline-block;
         div {
           width: 24px;
           height: 22px;

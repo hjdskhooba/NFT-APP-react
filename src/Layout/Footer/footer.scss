@@ -1,0 +1,118 @@
+.footer {
+  background-color: #fcfcfd;
+  padding-top: 80px;
+  &_input {
+    display: block;
+    input {
+      margin-top: 22px;
+      padding: 0 16px;
+      width: 20rem;
+      height: 48px;
+      border: 2px solid #e6e8ec;
+      border-radius: 90px;
+      @media (max-width: 400px) {
+        width: 260px;
+        & + b {
+          right: -220px;
+        }
+      }
+    }
+    b {
+      width: 32px;
+      position: relative;
+      height: 32px;
+      top: -40px;
+      right: -270px;
+      background-color: transparent;
+      border-radius: 100px;
+      color: white;
+    }
+  }
+  &_logo {
+    h2 {
+      margin-top: 32px;
+      width: 256px;
+      height: 64px;
+    }
+  }
+  .h4 {
+    justify-content: space-between;
+    margin-bottom: 40px;
+    @media (min-width: 910px) {
+      margin-bottom: 20px;
+      b {
+        display: none;
+      }
+    }
+    b {
+      font-size: smaller;
+    }
+  }
+  &_item.nav {
+    min-width: 103px;
+    min-height: 96px;
+  }
+  &_item.sub{
+    p{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+  }
+  &_item {
+    ul,
+    .ul {
+      display: grid;
+      height: 96px;
+      align-items: baseline;
+    }
+    li {
+      font-family: "DM Sans";
+      font-size: 14px;
+      font-weight: 700;
+      font-size: 14px;
+      color: #777e91;
+    }
+    .ul,
+    .ul > div > p {
+      line-break: loose;
+    }
+  }
+  &_popups {
+    @media (max-width: 910px) {
+      display: block;
+    }
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  &_foot {
+    font-family: 'Poppins';
+    font-weight: 400;
+    justify-content: space-between;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    margin-top: 73px;
+    border-top: 1px solid #e6e8ec;
+    @media (max-width: 639px) {
+      div {
+        display: none;
+      }
+    }
+    span {
+      color: #3772ff;
+      font-size: 12px;
+      margin-left: 14px;
+    }
+  }
+  &_links {
+    justify-content: space-between;
+    gap: 30px;
+    @media (max-width: 810px) {
+      justify-content: start;
+      flex-wrap: wrap;
+    }
+  }
+  &__inner {
+    align-content: space-between;
+  }
+}

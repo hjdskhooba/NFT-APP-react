@@ -1,0 +1,55 @@
+.cta {
+  .two {
+    background-color: #fcfcfd;
+    color: #23262f;
+    border: 2px solid #e6e8ec;
+  }
+  .cta_title > div{
+    gap: 13px;
+    @media (max-width: 707px) {
+        display: block;
+        .two{
+            margin: 20px 0 30px;
+        }
+    }
+  }
+  &__inner {
+    justify-content: space-between;
+  }
+  @media (max-width: 707px) {
+      &__inner {
+      display: block;
+      text-align: center;
+    }
+    .cta_title,
+    h1 {
+      min-width: 100%;
+      text-align: center;
+    }
+  }
+  @media (max-width: 500px) {
+      .cta-img > img {
+          width: 311px;
+    }
+  }
+  p {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  h1 {
+    line-break: loose;
+    font-size: 64px;
+    line-height: 64px;
+    max-width: 545px;
+    @media (max-width: 837px) {
+      font-size: 48px;
+    }
+  }
+  img {
+    width: fit-content;
+    height: auto;
+    @media (max-width: 1200px) {
+      width: 416px;
+    }
+  }
+}

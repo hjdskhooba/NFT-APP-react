@@ -6,6 +6,7 @@ import TopCreators from "./TopCreators/TopCreators";
 import Hotbid from "./Hotbid/Hotbid";
 import Hotcollections from "./Hotcollections/Hotcollections";
 import Discover from "./Discover/Discover";
+import Cta from "./Cta/Cta";
 
 const Home = () => {
   return (
@@ -24,6 +25,8 @@ const Home = () => {
         <Hotcollections/>
       {/* ----------Hot Collections---------- */}
         <Discover/>
+      {/* ----------Hot Collections---------- */}
+        <Cta/>
     </main>
   );
 };

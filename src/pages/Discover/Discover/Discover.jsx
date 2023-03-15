@@ -95,7 +95,7 @@ const Discover = () => {
             </div>
             <br />
             <br />
-            <div className="forDN">
+            <div className="forScroll forDN">
               <HotbidCards className="offsecond" />
             </div>
           </div>
