@@ -1,56 +1,105 @@
-.hotCollections{
-    h2{
-        margin-bottom: 80px;
+.hotCollections {
+  &_title {
+    margin-bottom: 80px;
+    justify-content: space-between;
+    @media (max-width: 707px) {
+      div {
+        display: none;
+      }
+      font-weight: 700;
+      font-size: 40px;
+      margin-bottom: 20px;
     }
-    padding: 125px 0;
-    background: #F4F5F6;
-    &__block{
+    @media (max-width: 474px) {
+      text-align: center;
+      justify-content: center;
+    }
+  }
+  padding: 125px 0;
+  background: #f4f5f6;
+  &__block {
+    width: 352px;
+    height: 405px;
+    .top-img {
         width: 352px;
-        height: 405px;
-        .top-img{
-            width: 352px;
-            height: 240px;
-            background-image: url('../../../../images/discover/hot-collections/bird.png');
-        }   
-        .bottom-images{
-            justify-content: space-between;
-            margin-top: 8px;
-            .first{
-                background-image: url('../../../../images/discover/hot-collections/spida.png');
-            }
-            .second{
-                background-image: url('../../../../images/discover/hot-collections/02-1.png');
-            }
-            .third{
-                background-image: url('../../../../images/discover/hot-collections/02-2.png');
-            }
-            .first, .second, .third{
-                width: 112px;
-                height: 75px;
-            }
-        }
+        height: 240px;
+        background-image: url("../../../../images/discover/hot-collections/bird.png");
     }
-    .subtitle{
-        margin-top: 12px;
+    .top-img.dva {
+        background-image: url("../../../../images/discover/hot-collections/placeholder.png");
     }
-    .forjcsb{
-        gap: 32px;
-    }
-    &__author{
+    .bottom-images {
         justify-content: space-between;
-        &_left > div{
-            width: 24px;
-            height: 24px;
+        margin-top: 8px;
+        .first {
+            background-image: url("../../../../images/discover/hot-collections/spida.png");
+            &.dva {
+                background-image: url("../../../../images/discover/hot-collections/one.png");
+            }
         }
-        .pshka{
-            margin-left: 12px;
-            font-size: 14px;
+        .second {
+            background-image: url("../../../../images/discover/hot-collections/02-1.png");
+            &.dva {
+                background-image: url("../../../../images/discover/hot-collections/twi.png");
+            }
         }
-        span{
-            border: 2px solid #E6E8EC;
-            border-radius: 4px;
-            font-size: 12px;
-            padding: 5px 7px;
+        .third {
+            background-image: url("../../../../images/discover/hot-collections/02-2.png");
+            &.dva {
+                background-image: url("../../../../images/discover/hot-collections/tres.png");
+            }
+        }
+        .first,
+        .second,
+        .third {
+            width: 112px;
+            height: 75px;
         }
     }
+}
+@media (max-width: 474px) {
+    .hotCollections__block{
+        width: 311px;
+        height: 405px;
+        .top-img {
+          width: 311px;
+          height: 240px;
+          background-position: center center;
+          background-size: cover;
+        }
+        .bottom-images > div{
+          background-size: cover;
+          width: 98.33px;
+          height: 75px;
+        }
+    }
+}
+.subtitle {
+    margin-top: 12px;
+  }
+  .forjcsb {
+    gap: 32px;
+    overflow-x: auto;
+    &::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+  }
+  &__author {
+    justify-content: space-between;
+    &_left > div {
+      width: 24px;
+      height: 24px;
+    }
+    .pshka {
+      margin-left: 12px;
+      font-size: 14px;
+    }
+    span {
+      border: 2px solid #e6e8ec;
+      border-radius: 4px;
+      font-size: 12px;
+      padding: 5px 7px;
+    }
+  }
 }

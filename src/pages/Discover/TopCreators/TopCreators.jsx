@@ -37,7 +37,7 @@ const TopCreators = () => {
                 </div>
             </div>
             <div className="card__item__body tcenter">
-              <div className="acc-ava card">
+              <div className="acc-ava card first">
                 <span></span>
               </div>
                 <p className="poppins cht2 f500">Edd Harris</p>
@@ -73,7 +73,7 @@ const TopCreators = () => {
                 </div>
             </div>
             <div className="card__item__body tcenter">
-              <div className="acc-ava card">
+              <div className="acc-ava card three">
                 <span></span>
               </div>
                 <p className="poppins cht2 f500">Edd Harris</p>

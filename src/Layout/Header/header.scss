@@ -56,6 +56,23 @@
       font-size: 14px;
       line-height: 16px;
     }
+    @media (max-width: 592px) {
+      &__connect-btn,
+      &__upload-btn {
+      display: none;
+      }
+    }
+    @media (min-width: 592px) {
+      .acc-ava{
+       display: none;   
+      }
+    }
+    .acc-ava{
+      height: 32px;
+      cursor: pointer;
+      width: 32px;
+      margin-right: 22px;
+    }
     &__connect-btn {
       background: white;
       border: 2px solid #e6e8ec;

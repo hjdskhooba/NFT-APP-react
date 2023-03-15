@@ -51,12 +51,13 @@ const Header = () => {
             />
             <button className="header__upload-btn">Upload</button>
             <button className="header__connect-btn">Connect Wallet</button>
-          </div>
+          <div className="acc-ava"></div>
           <img
             src="/images/header-burger.svg"
             alt=""
             className="header__burger"
           />
+          </div>
         </div>
       </div>
     </header>

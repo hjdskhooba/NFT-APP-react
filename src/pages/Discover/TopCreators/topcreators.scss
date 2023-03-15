@@ -6,10 +6,20 @@
     &--container.disflex{
       align-items: center;
     }
+    .acc-ava.card.first{
+      background-image: url('https://beebom.com/wp-content/uploads/2022/02/Featured.jpg?w=730&h=487&crop=1&quality=75');
+    }
+    .acc-ava.card.three{
+      background-image: url('https://res.cloudinary.com/upwork-cloud/video/upload/c_scale,w_1000/v1633330561/catalog/1432577315898511360/nttbnmqk53nyp2gwteh2.JPEG');
+    }
     &--container{
       overflow: hidden;
       overflow-x: auto;
       justify-content: space-between;
+      &::-webkit-scrollbar{
+        width: 0;
+        height: 0;
+      }
       b:hover{
         border: none;
       }
@@ -33,18 +43,6 @@
         display: flex;
       }
       justify-content: space-between;
-      .arrow-down :active{
-        transform: rotate(180deg)
-      }
-      .arrow-down{
-        transition: 100ms;
-        margin-left: 20.5px;
-        background-image: url('/images/arrow-down.svg');
-        width: 15px;
-        background-size: cover;
-        background-position: center center;
-        height: 9.17px;
-      }
       &>h2{
         font-size: 24px;
       }
@@ -149,3 +147,33 @@
       }
     }
   }
+  .title__option{
+    border: 2px solid #E6E8EC;
+    background: #FCFCFD;
+    border-radius: 12px;
+    width: 256px;
+    height: 48px;
+    justify-content: space-between;
+    padding: 0 8px 0 16px;
+    font-size: 14px;
+    &>div{
+      background-size: 9.5px;
+      border: 2px solid #E6E8EC;
+      border-radius: 50%;
+      padding: 14px;
+      cursor: pointer;
+      background-repeat: no-repeat;
+    }
+  }
+        .arrow-down :active{
+          transform: rotate(180deg)
+        }
+        .arrow-down{
+          transition: 100ms;
+          margin-left: 20.5px;
+          background-image: url('/images/arrow-down.svg');
+          width: 15px;
+          background-size: cover;
+          background-position: center center;
+          height: 9.17px;
+        }

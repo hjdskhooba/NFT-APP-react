@@ -83,12 +83,11 @@ button {
     max-width: 575px;
     padding: 0 35.5px;
   }
-  @media (max-width: 375px) {
-    max-width: 375px;
+  @media (max-width: 475px) {
     padding: 0 35.5px;
   }
   @media (max-width: 972px) {
-    padding: 0 45.5px;
+    padding: 0 35.5px;
   }
 }
 // Перехожу на БЭМ ! (12.03.2023)
