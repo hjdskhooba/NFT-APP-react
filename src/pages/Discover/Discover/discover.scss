@@ -116,14 +116,6 @@
         display: none;
       }
     }
-    .forScroll{
-        position: relative;
-        overflow-x: auto;
-        &::-webkit-scrollbar{
-          width: 0;
-            height: 0;
-          }
-    }
   }
   .arrows{
     @media (min-width: 707px) {
@@ -164,3 +156,11 @@
     }
   }
 }
+    .forScroll{
+        position: relative;
+        overflow-x: auto;
+        &::-webkit-scrollbar{
+          width: 0;
+            height: 0;
+          }
+    }

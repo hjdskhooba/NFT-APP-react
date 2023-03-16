@@ -115,4 +115,7 @@
   &__inner {
     align-content: space-between;
   }
+  li, span{
+    cursor: pointer;
+  }
 }

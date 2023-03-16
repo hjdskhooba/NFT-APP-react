@@ -23,29 +23,43 @@
           }
           @media (max-width: 592px) {
             max-width: 488px;
+            &+audio{
+              transform: translateY(203px);
+              width: 470px;
+            }
+          }
+          @media (max-width: 546px) {
+            width: 451px;
+            &+audio{
+              width: 430px;
+              transform: translateY(170px);
+            }
+          }
+          @media (min-width: 475px) and (max-width: 510px) {
+            width: 401px;
+            &+audio{
+              width: 385px;
+              transform: translateY(109px);
+            }
           }
           @media (max-width: 475px) {
             width: 281px;
+            &+audio{
+              width: 267px;
+              transform: translateY(-40px);
+            }
           }
         }
         &-player {
-          margin: 0 8px;
-          margin-top: 600px;
-          width: 624px;
-          @media (max-width: 565px) {
-            margin-top: 550px;
-            width: 470px;
-          }
+          margin: 0px 8px;
+          margin-top: 330px;
+          width: 524px;
           @media (min-width: 1262px) {
             margin-top: 743px;
             min-width: 624px;
           }
-          @media (min-width: 565px) {
-            width: 510px;
-          }
-          @media (max-width: 475px) {
-            width: 267px;
-            margin-top: 290px;
+          @media (max-width: 1262px) {
+            transform: translateY(290px);
           }
         }
       }
@@ -53,8 +67,23 @@
         &-title {
           font-size: 64px;
           line-height: 64px;
-          @media (max-width: 944px) {
-            margin-top: 40px;
+          @media (max-width: 946px) {
+            margin-top: 340px;
+          }
+          @media (max-width: 646px) {
+            margin-top: 300px;
+          }
+          @media (max-width: 592.5px) {
+            margin-top: 220px;
+          }
+          @media (max-width: 562.5px) {
+            margin-top: 220px;
+          }
+          @media (max-width: 510.5px) {
+            margin-top: 140px;
+          }
+          @media (max-width: 475px) {
+            margin-top: 0;
           }
           letter-spacing: -0.02em;
         }

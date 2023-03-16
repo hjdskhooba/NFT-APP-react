@@ -52,18 +52,9 @@
         width: 414px;
       }
       height: 512px;
-      @media (max-width: 945px) {
-        margin-top: 470px;
-      }
-      @media (max-width: 945px) {
+      @media (max-width: 945.5px) {
         margin-top: 470px;
       } 
-      @media (max-width: 474px) {
-        margin-top: 180px;
-      }
-      @media (max-width: 425px) {
-        margin-top: 240px;
-      }
       &-img {
         background-image: url("/images/third-block-left.png");
         height: 432px;
@@ -120,7 +111,7 @@
       margin-left: 24px;
       padding-right: 24px;
       width: 351px;
-      @media (max-width: 970px) {
+      @media (max-width: 945.5px) {
         width: 330px;
         margin-top: 468px;
         margin-left: 13px;
