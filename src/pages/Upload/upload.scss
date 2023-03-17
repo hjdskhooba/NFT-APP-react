@@ -1,0 +1,129 @@
+.upload {
+  background-color: #fcfcfd;
+}
+.upload__head {
+  color: #23262f;
+  font-family: "DM Sans";
+  font-weight: 700;
+  border-bottom: 1px solid #e6e8ec;
+  &_inner {
+    @media (min-width: 1200px) {
+      height: 88px;
+    }
+    @media (max-width: 1024px) {
+      height: 72px;
+    }
+    @media (max-width: 747px) {
+      height: 96px;
+      ul {
+        display: none;
+      }
+    }
+    justify-content: space-between;
+    .back_home-btn{
+      b {
+        width: 10px;
+        height: 6px;
+        background-size: cover;
+      }
+      gap: 15px;
+      padding: 12px 16px;
+      background: rgba(0, 0, 0, 0);
+      border: 2px solid #e6e8ec;
+      border-radius: 90px;
+    }
+    ul {
+      width: 195px;
+      justify-content: space-between;
+    }
+  }
+}
+.nav-arr {
+  background-image: url("../../../images/upload/arrow-right.svg");
+  background-size: cover;
+  width: 5.5px;
+  height: 9px;
+}
+.upload__body_inner {
+  justify-content: center;
+  & > p {
+    max-width: 736px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 64px;
+    @media (min-width: 1200px) {
+      margin-top: 16px;
+      margin-bottom: 80px;
+    }
+    @media (max-width: 707px) {
+      margin-bottom: 65px;
+    }
+  }
+  small {
+    display: block;
+    margin-top: 32px;
+  }
+  button:active {
+    background: #3772ff;
+  }
+  button {
+    margin: 24px 0;
+    padding: 12px 16px;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #e6e8ec;
+    border-radius: 90px;
+  }
+  .choose {
+    text-align: center;
+    justify-content: center;
+    gap: 32px;
+    margin: 0 auto;
+    // Laptop version
+    & > div {
+      border: 1px solid #e6e8ec;
+      border-radius: 16px;
+      width: 352px;
+      height: 360px;
+      padding-top: 16px;
+    }
+    // Mobile version
+    & + div {
+        color: #23262f;
+        font-family: 'Poppins';
+        font-weight: 500;
+        display: none;
+        width: 311px;
+        .nav-arr {
+            margin-left: auto;
+        }
+        .single{
+            padding-bottom: 47px;
+            margin-bottom: 47px;
+            &+div{
+                padding-bottom: 47px;
+            }
+        }
+        & > div {
+          border-bottom: 1px solid #e6e8ec;
+        display: flex;
+        width: 100%;
+        height: 64px;
+        align-items: center;
+        // justify-content: space-between;
+        img {
+          margin-right: 20px;
+          width: 64px;
+          height: 64px;
+        }
+      }
+    }
+    @media (max-width: 747px) {
+      display: none;
+      & + div {
+        display: block;
+      }
+    }
+  }
+}

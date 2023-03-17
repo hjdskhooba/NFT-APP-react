@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  const [theme, setTheme] = useState('')
-  if(theme === ''){
-    document.body.children[0].style.background = 'white'
-    document.body.children[0].style.color = 'black'
-  }else{
-    document.body.children[0].style.background = 'black'
-    document.body.children[0].style.color = 'white'
+  const [theme, setTheme] = useState("");
+  if (theme === "") {
+    document.body.children[0].style.background = "white";
+    document.body.children[0].style.color = "black";
+  } else {
+    document.body.children[0].style.background = "black";
+    document.body.children[0].style.color = "white";
   }
   return (
     <header className="header">
@@ -19,7 +19,12 @@ const Header = () => {
               <div className="header__logo"></div>
             </Link>
             <div className="header__line"></div>
-            <button className="change-theme" onClick={()=>theme == '' ? setTheme(' ') : setTheme('')}>{theme}</button>
+            <button
+              className="change-theme"
+              onClick={() => (theme == "" ? setTheme(" ") : setTheme(""))}
+            >
+              {theme}
+            </button>
             <div className="header__nav">
               <Link to="/">
                 <p>Discover</p>
@@ -49,14 +54,18 @@ const Header = () => {
               className="header__notif"
               alt=""
             />
-            <button className="header__upload-btn">Upload</button>
+            <Link to="/home/upload">
+              <button className="header__upload-btn">Upload</button>
+            </Link>
             <button className="header__connect-btn">Connect Wallet</button>
-          <div className="acc-ava"></div>
-          <img
-            src="/images/header-burger.svg"
-            alt=""
-            className="header__burger"
-          />
+            <div className="acc-ava"></div>
+            <Link to='/home/upload'>
+              <img
+                src="/images/header-burger.svg"
+                alt=""
+                className="header__burger"
+              />
+            </Link>
           </div>
         </div>
       </div>
