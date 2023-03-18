@@ -6,13 +6,8 @@
     &--container.disflex{
       align-items: center;
     }
-    .acc-ava.card.first{
-      background-image: url('https://beebom.com/wp-content/uploads/2022/02/Featured.jpg?w=730&h=487&crop=1&quality=75');
-    }
-    .acc-ava.card.three{
-      background-image: url('https://res.cloudinary.com/upwork-cloud/video/upload/c_scale,w_1000/v1633330561/catalog/1432577315898511360/nttbnmqk53nyp2gwteh2.JPEG');
-    }
-    &--container{
+  
+  &--container{
       overflow: hidden;
       overflow-x: auto;
       justify-content: space-between;
@@ -28,8 +23,8 @@
         display: none;
       }
       padding-left: 70px;
-      }
-      @media (max-width: 973px) {
+    }
+    @media (max-width: 973px) {
         padding-left: 40px;
       }
       height: 263px;
@@ -125,27 +120,34 @@
             background-color: #3772ff;
           }
         }
-        .acc-ava.card{
-          width: 64px;
-          margin: 0 auto;
-          height: 64px;
-          margin-bottom: 12px;
-          &>span{
-            background-image: url('/images/top-creators-diemond.svg');
-            background-position: center center;
-            background-size: contain;
-            padding: 6px 12px;
-            background-color: rgba(0, 0, 0, 0);
-            position: relative;
-            top: 45px;
-            left: 25px;
-          }
-        }
         &-body>p{
           font-size: 14px;
         }
       }
     }
+  }
+  .acc-ava.card{
+    width: 64px;
+    margin: 0 auto;
+    height: 64px;
+    margin-bottom: 12px;
+    &>span{
+      background-image: url('/images/top-creators-diemond.svg');
+      background-position: center center;
+      background-size: contain;
+      padding: 6px 12px;
+      background-color: rgba(0, 0, 0, 0);
+      position: relative;
+      top: 45px;
+      left: 25px;
+      background-repeat: no-repeat;
+    }
+  }
+  .acc-ava.card.first{
+    background-image: url('https://beebom.com/wp-content/uploads/2022/02/Featured.jpg?w=730&h=487&crop=1&quality=75');
+  }
+  .acc-ava.card.three{
+    background-image: url('https://res.cloudinary.com/upwork-cloud/video/upload/c_scale,w_1000/v1633330561/catalog/1432577315898511360/nttbnmqk53nyp2gwteh2.JPEG');
   }
   .title__option{
     border: 2px solid #E6E8EC;

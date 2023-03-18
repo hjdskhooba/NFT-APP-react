@@ -15,9 +15,9 @@ const Discover = () => {
   const fun = (e) => {
     if (e.target.className == "discover__body") {
       e.target.childNodes[3].childNodes[0].childNodes[0].childNodes[0].childNodes[0].src =
-        "https://avatars.mds.yandex.net/get-images-cbir/9427918/UcK5hzHheS4lVzdw8Egolw562/ocr";
+        "../../../../images/discover/discover/16.png";
       e.target.childNodes[3].childNodes[0].childNodes[1].childNodes[0].childNodes[0].src =
-        "https://avatars.mds.yandex.net/get-images-cbir/8507600/Z01ULG5-LVQO2-jBIQfJwg647/ocr";
+        "../../../../images/discover/discover/product img.png";
     }
   };
   return (
@@ -56,7 +56,7 @@ const Discover = () => {
                 <small className="poppins f700 likegray">Price</small>
                 <div className="title__option disflex acenter">
                   <p className="title__option-time poppins f500">
-                    Recently added
+                  Highest price
                   </p>
                   <div className="title__option-arrow arrow-down"></div>
                 </div>
@@ -65,7 +65,7 @@ const Discover = () => {
                 <small className="poppins f700 likegray">Price</small>
                 <div className="title__option disflex acenter">
                   <p className="title__option-time poppins f500">
-                    Recently added
+                  Most liked  
                   </p>
                   <div className="title__option-arrow arrow-down"></div>
                 </div>

@@ -23,36 +23,6 @@
       div > div {
         margin-left: 0;
       }
-      ul {
-        & + div {
-          display: none;
-        }
-        @media (max-width: 707px) {
-          display: none;
-          & + div {
-            display: flex;
-          }
-        }
-        gap: 7px;
-        li {
-          font-family: "DM Sans";
-          font-weight: 700;
-          &:hover {
-            color: #fcfcfd;
-            background: #353945;
-          }
-          color: #777e91;
-          cursor: pointer;
-          border-radius: 100px;
-          font-size: 14px;
-          padding: 6px 12px;
-        }
-        .adaptiveDN {
-          @media (max-width: 1024px) {
-            display: none;
-          }
-        }
-      }
     }
     &_filters {
         @media (max-width: 707px) {
@@ -133,9 +103,39 @@
     margin: 25px auto 0;
     background-color: #FCFCFD;
     img{
-        padding-left: 12px;
-      }
+      padding-left: 12px;
+    }
     @media (max-width: 707px) {
+      display: none;
+    }
+  }
+}
+.discover_nav {
+  & + div {
+    display: none;
+  }
+  @media (max-width: 707px) {
+    display: none;
+    & + div {
+      display: flex;
+    }
+  }
+  gap: 7px;
+  li {
+    font-family: "DM Sans";
+    font-weight: 700;
+    &:hover {
+      color: #fcfcfd;
+      background: #353945;
+    }
+    color: #777e91;
+    cursor: pointer;
+    border-radius: 100px;
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+  .adaptiveDN {
+    @media (max-width: 1024px) {
       display: none;
     }
   }

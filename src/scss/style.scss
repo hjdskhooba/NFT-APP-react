@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  user-select: none;
+  // user-select: none;
   user-zoom: none;
   box-sizing: border-box;
 }
@@ -70,7 +70,7 @@ button {
 }
 .container {
   // position: absolute;
-  overflow: hidden;
+  overflow-x: hidden;
   max-width: 1440px;
   padding: 0 160px;
   margin: 0 auto;
@@ -94,5 +94,6 @@ button {
 // Перехожу на БЭМ ! (12.03.2023)
 @import "/src/pages/Discover/home.scss";
 @import "/src/pages/Upload/upload.scss";
+@import "/src/pages/Item/item.scss";
 @import "/src/Layout/Header/header.scss";
 @import "/src/Layout/Footer/footer.scss";
