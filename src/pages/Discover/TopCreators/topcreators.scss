@@ -1,181 +1,181 @@
-.top-creators{
-    padding: 128px 0;
-    height: 663px;
-    margin-top: 40px;
-    background-color: #F4F5F6;
-    &--container.disflex{
-      align-items: center;
+.top-creators {
+  padding: 128px 0;
+  height: 663px;
+  margin-top: 40px;
+  background-color: #f4f5f6;
+  &--container.disflex {
+    align-items: center;
+  }
+
+  &--container {
+    overflow: hidden;
+    overflow-x: auto;
+    justify-content: space-between;
+    &::-webkit-scrollbar {
+      width: 0;
+      height: 0;
     }
-  
-  &--container{
-      overflow: hidden;
-      overflow-x: auto;
-      justify-content: space-between;
-      &::-webkit-scrollbar{
-        width: 0;
-        height: 0;
-      }
-      b:hover{
-        border: none;
-      }
-      @media (max-width: 1262px) {
-      b{
+    b:hover {
+      border: none;
+    }
+    @media (max-width: 1262px) {
+      b {
         display: none;
       }
       padding-left: 70px;
     }
     @media (max-width: 973px) {
-        padding-left: 40px;
-      }
-      height: 263px;
-      max-width: 1264px;
-      margin: 0 auto;
-      margin-top: 64px;
-      // justify-content: space-around;
+      padding-left: 40px;
     }
-    &__title{
-      @media (min-width: 600px) {
-        display: flex;
-      }
-      justify-content: space-between;
-      &>h2{
-        font-size: 24px;
-      }
-      .title__right > p{
-        margin: 0px 0 10px;
-        color: #B1B5C4;
-        text-transform: uppercase;
-        font-size: 12px;
-        @media (min-width: 1024px) {
-          display: none;
-        }
-        @media (max-width: 600px) {
-          margin-top: 23px;
-        }
-      }
-      .title__option{
-        border: 2px solid #E6E8EC;
-        background: #FCFCFD;
-        border-radius: 12px;
-        width: 256px;
-        height: 48px;
-        justify-content: space-between;
-        padding: 0 8px 0 16px;
-        font-size: 14px;
-        &>div{
-          background-size: 9.5px;
-          border: 2px solid #E6E8EC;
-          border-radius: 50%;
-          padding: 14px;
-          cursor: pointer;
-          background-repeat: no-repeat;
-        }
-      }
-    }
-    &__cards{
-      z-index: 1;
-      height: 263px;
-      /* padding: 0 40px; */
-      margin: 0 auto;
-      width: 1120px;
-      display: flex;
-      /* gap: 36px; */
-      justify-content: space-between;
-      &__item:hover{
-        height: 263px;
-        box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);      
-      }
-      &__item.two .card__item__head-left{
-        background-color: purple;
-      }
-      &__item.three .card__item__head-left{
-        background-color: green;
-      }
-      &__item.four .card__item__head-left{
-        background-color: #23262F;
-      }
-      &__item.five .card__item__head-left{
-        background-color: grey;
-      }
-      &__item{
-        transition: 300ms;
-        display: block;
-        width : 198.4px;
-        height: 247px;
-        background: #FCFCFD;
-        padding: 24px;
-        border-radius: 16px;
-        .card__item__head{
-          justify-content: space-between;
-          border-bottom: 1px solid #E6E8EC;
-          padding-bottom: 24px;
-          margin-bottom: 24px;
-          &-left{
-            gap: 5px;
-            width: 51px;
-            height: 24px;
-            color: white;
-            background: #3772FF;
-            border-radius: 24px;
-            background-color: #3772ff;
-          }
-        }
-        &-body>p{
-          font-size: 14px;
-        }
-      }
-    }
-  }
-  .acc-ava.card{
-    width: 64px;
+    height: 263px;
+    max-width: 1264px;
     margin: 0 auto;
-    height: 64px;
-    margin-bottom: 12px;
-    &>span{
-      background-image: url('/images/top-creators-diemond.svg');
-      background-position: center center;
-      background-size: contain;
-      padding: 6px 12px;
-      background-color: rgba(0, 0, 0, 0);
-      position: relative;
-      top: 45px;
-      left: 25px;
-      background-repeat: no-repeat;
+    margin-top: 64px;
+    // justify-content: space-around;
+  }
+  &__title {
+    @media (min-width: 600px) {
+      display: flex;
     }
-  }
-  .acc-ava.card.first{
-    background-image: url('https://beebom.com/wp-content/uploads/2022/02/Featured.jpg?w=730&h=487&crop=1&quality=75');
-  }
-  .acc-ava.card.three{
-    background-image: url('https://res.cloudinary.com/upwork-cloud/video/upload/c_scale,w_1000/v1633330561/catalog/1432577315898511360/nttbnmqk53nyp2gwteh2.JPEG');
-  }
-  .title__option{
-    border: 2px solid #E6E8EC;
-    background: #FCFCFD;
-    border-radius: 12px;
-    width: 256px;
-    height: 48px;
     justify-content: space-between;
-    padding: 0 8px 0 16px;
-    font-size: 14px;
-    &>div{
-      background-size: 9.5px;
-      border: 2px solid #E6E8EC;
-      border-radius: 50%;
-      padding: 14px;
-      cursor: pointer;
-      background-repeat: no-repeat;
+    & > h2 {
+      font-size: 24px;
+    }
+    .title__right > p {
+      margin: 0px 0 10px;
+      color: #b1b5c4;
+      text-transform: uppercase;
+      font-size: 12px;
+      @media (min-width: 1024px) {
+        display: none;
+      }
+      @media (max-width: 600px) {
+        margin-top: 23px;
+      }
+    }
+    .title__option {
+      border: 2px solid #e6e8ec;
+      background: #fcfcfd;
+      border-radius: 12px;
+      width: 256px;
+      height: 48px;
+      justify-content: space-between;
+      padding: 0 8px 0 16px;
+      font-size: 14px;
+      & > div {
+        background-size: 9.5px;
+        border: 2px solid #e6e8ec;
+        border-radius: 50%;
+        padding: 14px;
+        cursor: pointer;
+        background-repeat: no-repeat;
+      }
     }
   }
-        .arrow-down :active{
-          transform: rotate(180deg)
+  &__cards {
+    z-index: 1;
+    height: 263px;
+    /* padding: 0 40px; */
+    margin: 0 auto;
+    width: 1120px;
+    display: flex;
+    /* gap: 36px; */
+    justify-content: space-between;
+    &__item:hover {
+      height: 263px;
+      box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+    }
+    &__item.two .card__item__head-left {
+      background-color: purple;
+    }
+    &__item.three .card__item__head-left {
+      background-color: green;
+    }
+    &__item.four .card__item__head-left {
+      background-color: #23262f;
+    }
+    &__item.five .card__item__head-left {
+      background-color: grey;
+    }
+    &__item {
+      transition: 300ms;
+      display: block;
+      width: 198.4px;
+      height: 247px;
+      background: #fcfcfd;
+      padding: 24px;
+      border-radius: 16px;
+      .card__item__head {
+        justify-content: space-between;
+        border-bottom: 1px solid #e6e8ec;
+        padding-bottom: 24px;
+        margin-bottom: 24px;
+        &-left {
+          gap: 5px;
+          width: 51px;
+          height: 24px;
+          color: white;
+          background: #3772ff;
+          border-radius: 24px;
+          background-color: #3772ff;
         }
-        .arrow-down{
-          transition: 100ms;
-          margin-left: 20.5px;
-          background-image: url('/images/arrow-down.svg');
-          width: 15px;
-          background-size: cover;
-          background-position: center center;
-          height: 9.17px;
-        }
+      }
+      &-body > p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+.acc-ava.card {
+  width: 64px;
+  margin: 0 auto;
+  height: 64px;
+  margin-bottom: 12px;
+  & > span {
+    background-image: url("/images/top-creators-diemond.svg");
+    background-position: center center;
+    background-size: contain;
+    padding: 6px 12px;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    top: 45px;
+    left: 25px;
+    background-repeat: no-repeat;
+  }
+}
+.acc-ava.card.first {
+  background-image: url("https://beebom.com/wp-content/uploads/2022/02/Featured.jpg?w=730&h=487&crop=1&quality=75");
+}
+.acc-ava.card.three {
+  background-image: url("https://res.cloudinary.com/upwork-cloud/video/upload/c_scale,w_1000/v1633330561/catalog/1432577315898511360/nttbnmqk53nyp2gwteh2.JPEG");
+}
+.title__option {
+  border: 2px solid #e6e8ec;
+  background: #fcfcfd;
+  border-radius: 12px;
+  width: 256px;
+  height: 48px;
+  justify-content: space-between;
+  padding: 0 8px 0 16px;
+  font-size: 14px;
+  & > div {
+    background-size: 9.5px;
+    border: 2px solid #e6e8ec;
+    border-radius: 50%;
+    padding: 14px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+  }
+}
+.arrow-down :active {
+  transform: rotate(180deg);
+}
+.arrow-down {
+  transition: 100ms;
+  margin-left: 20.5px;
+  background-image: url("/images/arrow-down.svg");
+  width: 15px;
+  background-size: cover;
+  background-position: center center;
+  height: 9.17px;
+}

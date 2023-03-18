@@ -1,8 +1,8 @@
 import React from "react";
 import uploadSingle from "../../../images/upload/img.png";
 import uploadMultiple from "../../../images/upload/img-1.png";
-import uploadResSin from "../../../images/upload/icon.svg"
-import uploadResMult from "../../../images/upload/icon2.svg"
+import uploadResSin from "../../../images/upload/icon.svg";
+import uploadResMult from "../../../images/upload/icon2.svg";
 import { Link } from "react-router-dom";
 const Upload = () => {
   return (
@@ -10,7 +10,7 @@ const Upload = () => {
       <div className="upload__head">
         <div className="container">
           <div className="upload__head_inner disflex acenter">
-            <Link to='/' className="back_home-btn acenter disflex">
+            <Link to="/" className="back_home-btn acenter disflex">
               <b className="prev"></b>
               <p>Back to home</p>
             </Link>
@@ -45,16 +45,16 @@ const Upload = () => {
               </div>
             </div>
             <div className="acenter">
-                <div className="single">
-                    <img src={uploadResSin} alt="" />
-                    <p>Create Single</p>
-                    <div className="nav-arr"></div>
-                </div>
-                <div className="multiple">
-                    <img src={uploadResMult} alt="" />
-                    <p>Create Multiple</p>
-                    <div className="nav-arr"></div>
-                </div>
+              <div className="single">
+                <img src={uploadResSin} alt="" />
+                <p>Create Single</p>
+                <div className="nav-arr"></div>
+              </div>
+              <div className="multiple">
+                <img src={uploadResMult} alt="" />
+                <p>Create Multiple</p>
+                <div className="nav-arr"></div>
+              </div>
             </div>
             <small className="likegray f400 poppins">
               We do not own your private keys and cannot access your funds

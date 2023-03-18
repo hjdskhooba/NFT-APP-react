@@ -2,17 +2,17 @@
   font-size: 40px;
   line-height: 48px;
   letter-spacing: -0.01em;
-  font-family: 'DM Sans';
-  color: #23262f  ;
+  font-family: "DM Sans";
+  color: #23262f;
   @media (max-width: 500px) {
     font-size: 32px;
   }
 }
-.subtitle{
-  font-family: 'Poppins';
+.subtitle {
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 24px;
-  color: #23262f
+  color: #23262f;
 }
 @import "./Title/title.scss";
 //////////////////////////////////////////////////////////////////////////////////////////////////////////auction-block
@@ -35,12 +35,12 @@
   background-size: 19px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url('../../../images/prev.svg');
+  background-image: url("../../../images/prev.svg");
 }
 .prev {
   background-size: 19px;
   justify-content: center;
-  background-image: url('../../../images/next.svg');
+  background-image: url("../../../images/next.svg");
   display: flex;
   background-position: center center;
   cursor: pointer;

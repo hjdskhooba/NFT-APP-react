@@ -1,0 +1,159 @@
+.profile {
+  overflow: hidden;
+  &_btns {
+    width: 171px;
+    margin: 0 auto;
+    .item_btns {
+      transform: none;
+      @media (max-width: 1312px) {
+        display: flex;
+      }
+      display: flex;
+      height: 100%;
+      div {
+        margin: 0;
+        padding: 0;
+        padding: 10px;
+      }
+    }
+    .btn-blue {
+      width: 75px;
+      height: 40px;
+    }
+  }
+  &__head {
+    height: 326px;
+    background-image: url(../../../images/Profile/profile-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__inner {
+      display: flex;
+      height: 326px;
+      align-items: end;
+      justify-content: right;
+      --padding: 32px;
+      padding-bottom: var(--padding);
+      gap: 15px;
+      div {
+        cursor: pointer;
+        border: 2px solid #777e91;
+        border-radius: 90px;
+        background: transparent;
+        width: 172px;
+        height: 40px;
+        gap: 13px;
+        color: #fcfcfd;
+        font-size: 14px;
+    }
+      @media (max-width: 912px) {
+        padding-bottom: calc(var(--padding) + 104px);
+      }
+      @media (max-width: 675px) {
+        padding-bottom: calc(var(--padding) + 24px);
+        div {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  &__body {
+    .container.prof {
+      overflow: visible;
+    }
+    &_acc {
+      background: #fcfcfd;
+      border: 1px solid #e6e8ec;
+      box-shadow: 0px 40px 32px -24px rgba(15, 15, 15, 0.12);
+      transform: translateY(-120px);
+      @media (max-width: 675px) {
+        transform: translateY(-27px);
+      }
+      border-radius: 16px;
+      padding: 32px 35px;
+      width: 256px;
+      height: 689px;
+      .acc-ava.card {
+        width: 160px;
+        height: 160px;
+      }
+      .margins {
+        display: block;
+        margin: 20px auto;
+        & + p,
+        & + p + div,
+        & + p + div > div {
+          gap: 8px;
+        }
+        & + p,
+        & + p + div {
+          margin-bottom: 48px;
+        }
+      }
+      .contact_icons {
+        display: inline-flex;
+        gap: 29px;
+        margin-bottom: 48px;
+      }
+      .line {
+        height: 1px;
+        background-color: #e6e8ec;
+        width: 100%;
+        margin-bottom: 48px;
+      }
+      @media (max-width: 912px) {
+        width: 100%;
+      }
+    }
+    &__inner {
+      @media (min-width: 913px) {
+        display: flex;
+      }
+      ul {
+        margin: 67px 0 32px 64px;
+        @media (max-width: 912.5px) {
+          margin: 0 auto 32px auto;
+        }
+        @media (max-width: 707px) {
+          display: flex;
+          height: 28px;
+          overflow-x: auto;
+        }
+        max-width: 544px;
+        max-height: 28px;
+        li {
+          padding-top: 5px;
+        }
+        & + div {
+          display: flex;
+          @media (max-width: 607px) {
+            overflow: auto;
+            display: -webkit-inline-box;
+          }
+          @media (min-width: 912.5px) {
+            margin-left: 64px;
+          }
+          & > div {
+            width: auto;
+            @media (min-width: 607px) and (max-width: 1422px) {
+              flex-wrap: wrap;
+            }
+            @media (min-width: 1272px) {
+              & div:nth-child(4) {
+                display: none;
+              }
+            }
+            & div {
+              max-width: 245.33px;
+            }
+            @media (max-width: 912.5px) {
+                justify-content: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  small {
+    font-size: 12px;
+  }
+}

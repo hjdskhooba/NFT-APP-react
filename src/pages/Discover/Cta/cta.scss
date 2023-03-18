@@ -4,20 +4,20 @@
     color: #23262f;
     border: 2px solid #e6e8ec;
   }
-  .cta_title > div{
+  .cta_title > div {
     gap: 13px;
     @media (max-width: 707px) {
-        display: block;
-        .two{
-            margin: 20px 0 30px;
-        }
+      display: block;
+      .two {
+        margin: 20px 0 30px;
+      }
     }
   }
   &__inner {
     justify-content: space-between;
   }
   @media (max-width: 707px) {
-      &__inner {
+    &__inner {
       display: block;
       text-align: center;
     }
@@ -28,8 +28,8 @@
     }
   }
   @media (max-width: 500px) {
-      .cta-img > img {
-          width: 311px;
+    .cta-img > img {
+      width: 311px;
     }
   }
   p {

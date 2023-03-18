@@ -20,7 +20,7 @@
       }
     }
     justify-content: space-between;
-    .back_home-btn{
+    .back_home-btn {
       b {
         width: 10px;
         height: 6px;
@@ -90,23 +90,23 @@
     }
     // Mobile version
     & + div {
-        color: #23262f;
-        font-family: 'Poppins';
-        font-weight: 500;
-        display: none;
-        width: 311px;
-        .nav-arr {
-            margin-left: auto;
+      color: #23262f;
+      font-family: "Poppins";
+      font-weight: 500;
+      display: none;
+      width: 311px;
+      .nav-arr {
+        margin-left: auto;
+      }
+      .single {
+        padding-bottom: 47px;
+        margin-bottom: 47px;
+        & + div {
+          padding-bottom: 47px;
         }
-        .single{
-            padding-bottom: 47px;
-            margin-bottom: 47px;
-            &+div{
-                padding-bottom: 47px;
-            }
-        }
-        & > div {
-          border-bottom: 1px solid #e6e8ec;
+      }
+      & > div {
+        border-bottom: 1px solid #e6e8ec;
         display: flex;
         width: 100%;
         height: 64px;

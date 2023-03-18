@@ -25,9 +25,9 @@
       }
     }
     &_filters {
-        @media (max-width: 707px) {
-            display: none;
-        }
+      @media (max-width: 707px) {
+        display: none;
+      }
       margin-bottom: 32px;
       padding-top: 32px;
       margin-top: 32px;
@@ -87,22 +87,22 @@
       }
     }
   }
-  .arrows{
+  .arrows {
     @media (min-width: 707px) {
       display: none;
     }
     margin-top: 15px;
     gap: 20px;
   }
-  .lmore-btn{
-    border: 2px solid #E6E8EC;
+  .lmore-btn {
+    border: 2px solid #e6e8ec;
     border-radius: 90px;
     padding: 10px 16px;
     display: flex;
     align-items: center;
     margin: 25px auto 0;
-    background-color: #FCFCFD;
-    img{
+    background-color: #fcfcfd;
+    img {
       padding-left: 12px;
     }
     @media (max-width: 707px) {
@@ -156,11 +156,11 @@
     }
   }
 }
-    .forScroll{
-        position: relative;
-        overflow-x: auto;
-        &::-webkit-scrollbar{
-          width: 0;
-            height: 0;
-          }
-    }
+.forScroll {
+  position: relative;
+  overflow-x: auto;
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+}

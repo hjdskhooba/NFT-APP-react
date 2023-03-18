@@ -91,7 +91,7 @@ const Discover = () => {
             </div>
             <br />
             <div className="forScroll">
-              <HotbidCards />
+              <HotbidCards key={2}/>
             </div>
             <br />
             <br />

@@ -21,60 +21,60 @@
     width: 352px;
     height: 405px;
     .top-img {
-        width: 352px;
-        height: 240px;
-        background-image: url("../../../../images/discover/hot-collections/bird.png");
+      width: 352px;
+      height: 240px;
+      background-image: url("../../../../images/discover/hot-collections/bird.png");
     }
     .top-img.dva {
-        background-image: url("../../../../images/discover/hot-collections/placeholder.png");
+      background-image: url("../../../../images/discover/hot-collections/placeholder.png");
     }
     .bottom-images {
-        justify-content: space-between;
-        margin-top: 8px;
-        .first {
-            background-image: url("../../../../images/discover/hot-collections/spida.png");
-            &.dva {
-                background-image: url("../../../../images/discover/hot-collections/one.png");
-            }
+      justify-content: space-between;
+      margin-top: 8px;
+      .first {
+        background-image: url("../../../../images/discover/hot-collections/spida.png");
+        &.dva {
+          background-image: url("../../../../images/discover/hot-collections/one.png");
         }
-        .second {
-            background-image: url("../../../../images/discover/hot-collections/02-1.png");
-            &.dva {
-                background-image: url("../../../../images/discover/hot-collections/twi.png");
-            }
+      }
+      .second {
+        background-image: url("../../../../images/discover/hot-collections/02-1.png");
+        &.dva {
+          background-image: url("../../../../images/discover/hot-collections/twi.png");
         }
-        .third {
-            background-image: url("../../../../images/discover/hot-collections/02-2.png");
-            &.dva {
-                background-image: url("../../../../images/discover/hot-collections/tres.png");
-            }
+      }
+      .third {
+        background-image: url("../../../../images/discover/hot-collections/02-2.png");
+        &.dva {
+          background-image: url("../../../../images/discover/hot-collections/tres.png");
         }
-        .first,
-        .second,
-        .third {
-            width: 112px;
-            height: 75px;
-        }
+      }
+      .first,
+      .second,
+      .third {
+        width: 112px;
+        height: 75px;
+      }
     }
-}
-@media (max-width: 474px) {
-    .hotCollections__block{
+  }
+  @media (max-width: 474px) {
+    .hotCollections__block {
+      width: 311px;
+      height: 405px;
+      .top-img {
         width: 311px;
-        height: 405px;
-        .top-img {
-          width: 311px;
-          height: 240px;
-          background-position: center center;
-          background-size: cover;
-        }
-        .bottom-images > div{
-          background-size: cover;
-          width: 98.33px;
-          height: 75px;
-        }
+        height: 240px;
+        background-position: center center;
+        background-size: cover;
+      }
+      .bottom-images > div {
+        background-size: cover;
+        width: 98.33px;
+        height: 75px;
+      }
     }
-}
-.subtitle {
+  }
+  .subtitle {
     margin-top: 12px;
   }
   .forjcsb {

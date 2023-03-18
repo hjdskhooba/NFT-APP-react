@@ -69,7 +69,7 @@ const Auction = () => {
               <button className="btn-blue dmsans f700 tcenter likewhite">
                 Place a bid
               </button>
-              <Link to='/item/1'>
+              <Link to="/item/1">
                 <button className="auction__inner-right-bottom-btn-white dmsans f700 tcenter">
                   View item
                 </button>

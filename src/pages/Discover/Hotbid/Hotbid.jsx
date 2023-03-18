@@ -15,7 +15,7 @@ const Hotbid = () => {
               </div>
             </div>
             <div className="forScroll">
-              <HotbidCards />
+              <HotbidCards key='1' />
             </div>
           </div>
         </div>

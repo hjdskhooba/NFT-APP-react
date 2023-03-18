@@ -47,19 +47,21 @@ const Header = () => {
                 alt=""
               />
             </div>
-            <img
-              src="/images/Notification.svg"
-              width="40px"
-              height="40px"
-              className="header__notif"
-              alt=""
-            />
+            <Link to="/profile">
+              <img
+                src="/images/Notification.svg"
+                width="40px"
+                height="40px"
+                className="header__notif"
+                alt=""
+              />
+            </Link>
             <Link to="/home/upload">
               <button className="header__upload-btn">Upload</button>
             </Link>
             <button className="header__connect-btn">Connect Wallet</button>
             <div className="acc-ava"></div>
-            <Link to='/home/upload'>
+            <Link to="/home/upload">
               <img
                 src="/images/header-burger.svg"
                 alt=""
