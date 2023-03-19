@@ -117,6 +117,9 @@
           display: flex;
           height: 28px;
           overflow-x: auto;
+          &::-webkit-scrollbar{
+            width: 0;
+          }
         }
         max-width: 544px;
         max-height: 28px;
@@ -172,5 +175,15 @@
   }
   small {
     font-size: 12px;
+  }
+  .more{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    place-content: center;
+    img{
+      cursor: pointer;
+      display: block;
+    }
   }
 }

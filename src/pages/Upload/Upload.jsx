@@ -25,6 +25,8 @@ const Upload = () => {
       <div className="upload__body">
         <div className="container">
           <div className="upload__body_inner tcenter">
+            <br />
+            <br />
             <h2 className="title">Upload item</h2>
             <p className="likegray poppins f400">
               Choose <span className="cht2">“Single”</span> if you want your

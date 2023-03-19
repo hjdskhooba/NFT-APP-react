@@ -8,6 +8,7 @@ import face from "../../../images/Profile/Line2.svg";
 import twit from "../../../images/Profile/Line3.svg";
 import share from "../../../images/item/share.svg";
 import dots from "../../../images/item/duts.svg";
+import more from "../../../images/discover/discover/like_sun.svg";
 import HotbidCards from "../Discover/Hotbid/HotbidCards";
 import { Link } from "react-router-dom";
 
@@ -73,7 +74,10 @@ const Profile = () => {
               <div className="forFW forScroll">
                 <HotbidCards />
               </div>
-
+              <br />
+          <div className="more">
+              <img src={more} alt="" />
+          </div>
             </div>
           </div>
         </div>
