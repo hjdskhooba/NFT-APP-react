@@ -1,4 +1,7 @@
 import React from "react";
+import img1 from '../../../../images/discover/hot-collections/bird.png'
+import img2 from '../../../../images/discover/hot-collections/placeholder.png'
+import img3 from '../../../../images/discover/hot-collections/bird.png'
 
 const Hotcollections = () => {
   return (
@@ -14,7 +17,7 @@ const Hotcollections = () => {
           </div>
           <div className="forjcsb disflex">
             <div className="hotCollections__block">
-              <div className="top-img"></div>
+              <img src={img1} alt="" className="top_img"/>
               <div className="bottom-images disflex acenter">
                 <div className="first"></div>
                 <div className="second"></div>
@@ -30,7 +33,7 @@ const Hotcollections = () => {
               </div>
             </div>
             <div className="hotCollections__block">
-              <div className="top-img dva"></div>
+            <img src={img2} alt="" className="top_img dva"/>
               <div className="bottom-images disflex acenter">
                 <div className="first dva"></div>
                 <div className="second dva"></div>
@@ -46,7 +49,7 @@ const Hotcollections = () => {
               </div>
             </div>
             <div className="hotCollections__block">
-              <div className="top-img"></div>
+            <img src={img3} alt="" className="top_img"/>
               <div className="bottom-images disflex acenter">
                 <div className="first"></div>
                 <div className="second"></div>
