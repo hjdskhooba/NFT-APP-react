@@ -17,7 +17,7 @@ const Footer = () => {
               <div className="footer_item nav">
                 <span className="h4 disflex acenter">
                   <h4 className="poppins f500 cht2">Crypter.</h4>
-                  <b>&#11167;</b>
+                  <b className="arrow-down"></b>
                 </span>
                 <ul>
                   <li>Discover</li>
@@ -28,7 +28,7 @@ const Footer = () => {
               <div className="footer_item info">
                 <span className="h4 disflex acenter">
                   <h4 className="poppins f500 cht2">Info</h4>
-                  <b>&#11167;</b>
+                  <b className="arrow-down"></b>
                 </span>
                 <ul>
                   <li>Download</li>

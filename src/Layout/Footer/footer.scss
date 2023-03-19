@@ -1,3 +1,19 @@
+.h4 {
+  justify-content: space-between;
+  margin-bottom: 40px;
+  @media (min-width: 910px) {
+    margin-bottom: 20px;
+    b {
+      display: none;
+    }
+  }
+  b {
+    font-size: smaller;
+  }
+  @media (max-width: 445px) {
+    width: 275px;
+  }
+}
 .footer {
   background-color: #fcfcfd;
   padding-top: 80px;
@@ -28,6 +44,11 @@
       color: white;
     }
   }
+  .arrow-down{
+    width: 9px;
+    height: 5.5px;
+    background-size: 100%;
+  }
   &_logo {
     h2 {
       margin-top: 32px;
@@ -36,22 +57,6 @@
       // @media (max-width: 810px) {
         margin-bottom: 32px;
       // }
-    }
-  }
-  .h4 {
-    justify-content: space-between;
-    margin-bottom: 40px;
-    @media (min-width: 910px) {
-      margin-bottom: 20px;
-      b {
-        display: none;
-      }
-    }
-    b {
-      font-size: smaller;
-    }
-    @media (max-width: 445px) {
-      width: 275px;
     }
   }
   &_item.nav {
