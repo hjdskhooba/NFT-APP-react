@@ -59,8 +59,12 @@ const Header = () => {
             <Link to="/home/upload">
               <button className="header__upload-btn">Upload</button>
             </Link>
-            <button className="header__connect-btn">Connect Wallet</button>
-            <Link to="/profile"><div className="acc-ava"></div></Link>
+            <Link to='/connect-wallet'>
+              <button className="header__connect-btn">Connect Wallet</button>
+            </Link>
+            <Link to="/profile">
+              <div className="acc-ava"></div>
+            </Link>
             <Link to="/home/upload">
               <img
                 src="/images/header-burger.svg"

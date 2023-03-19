@@ -1,0 +1,105 @@
+.connect-wallet {
+  background: #fcfcfd;
+  .wallet__inner {
+    & > h2 {
+      margin: 80px 0;
+      padding-bottom: 40px;
+      border-bottom: 1px solid #e6e8ec;
+      @media (max-width: 707px) {
+        margin: 36px 0 32px;
+      }
+      @media (min-width: 1009px) {
+        font-size: 48px;
+      }
+      @media (max-width: 1009px) {
+        font-size: 38px;
+      }
+    }
+    .wallet__choice {
+      & > div:hover {
+        border: 2px solid #e6e8ec;
+        padding: 30px;
+        .arr {
+          visibility: visible;
+        }
+      }
+      & > div {
+        .arr {
+          visibility: hidden;
+          border: none;
+        }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div {
+          display: flex;
+          gap: 32px;
+          align-items: center;
+        }
+        border-radius: 16px;
+        padding: 32px;
+        @media (min-width: 1024px) {
+          width: 544px;
+          height: 128px;
+        }
+        img {
+          width: 64px;
+          height: 64px;
+        }
+      }
+      @media (max-width: 1009px) {
+        display: none;
+      }
+    }
+    .wallet__code {
+        .qr-code {
+            width: 448px;
+            height: 448px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            overflow: visible;
+            background: #F4F5F6;
+            border-radius: 16px;
+            & > div {
+                width: 282.67px;
+          height: 282px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #fcfcfd;
+          border: 1px solid #e6e8ec;
+          box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+          border-radius: 12px;
+        }
+    }
+    &>small{
+        display: block;
+        margin: 8px 0 24px;
+    }
+    &>button{
+        margin-top: 24px;
+        width: 199px;
+        height: 52px;
+    }
+    small,
+    button {
+        font-size: 12px;
+    }
+    @media (max-width: 1009px) {
+        width: 100%;
+        text-align: center;
+        .qr-code{
+            width: 100%;
+        }
+        button{
+            width: 100%;
+        }
+    }
+}
+    & > div {
+      justify-content: space-between;
+    }
+  }
+}
