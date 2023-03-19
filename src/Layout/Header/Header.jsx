@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import search from '../../../images/header-search.svg';
+import burger from '../../../images/header-burger.svg';
+import notifications from '../../../images/Notification.svg';
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -42,14 +45,14 @@ const Header = () => {
                 type="text"
               />
               <img
-                src="/images/header-search.svg"
+                src={search}
                 className="header__search-button"
                 alt=""
               />
             </div>
             <Link to="/profile">
               <img
-                src="/images/Notification.svg"
+                src={notifications}
                 width="40px"
                 height="40px"
                 className="header__notif"
@@ -67,7 +70,7 @@ const Header = () => {
             </Link>
             <Link to="/home/upload">
               <img
-                src="/images/header-burger.svg"
+                src={burger}
                 alt=""
                 className="header__burger"
               />
