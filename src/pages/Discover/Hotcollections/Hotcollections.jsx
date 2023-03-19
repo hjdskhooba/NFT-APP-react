@@ -2,6 +2,12 @@ import React from "react";
 import img1 from '../../../../images/discover/hot-collections/bird.png'
 import img2 from '../../../../images/discover/hot-collections/placeholder.png'
 import img3 from '../../../../images/discover/hot-collections/bird.png'
+import first from '../../../../images/discover/hot-collections/spida.png'
+import firstdva from '../../../../images/discover/hot-collections/one.png'
+import twi from '../../../../images/discover/hot-collections/twi.png'
+import twidva from '../../../../images/discover/hot-collections/02-1.png'
+import tres from '../../../../images/discover/hot-collections/tres.png'
+import tresdva from '../../../../images/discover/hot-collections/02-2.png'
 
 const Hotcollections = () => {
   return (
@@ -19,9 +25,9 @@ const Hotcollections = () => {
             <div className="hotCollections__block">
               <img src={img1} alt="" className="top_img"/>
               <div className="bottom-images disflex acenter">
-                <div className="first"></div>
-                <div className="second"></div>
-                <div className="third"></div>
+                <img src={first} className='first' alt="" />
+                <img src={twi} className='second' alt="" />
+                <img src={tres} className='third' alt="" />
               </div>
               <h3 className="subtitle">Awesome collection</h3>
               <div className="hotCollections__author disflex acenter">
@@ -35,9 +41,9 @@ const Hotcollections = () => {
             <div className="hotCollections__block">
             <img src={img2} alt="" className="top_img dva"/>
               <div className="bottom-images disflex acenter">
-                <div className="first dva"></div>
-                <div className="second dva"></div>
-                <div className="third dva"></div>
+              <img src={firstdva} className='first dva' alt="" />
+                <img src={twidva} className='second dva' alt="" />
+                <img src={tresdva} className='third dva' alt="" />
               </div>
               <h3 className="subtitle">Awesome collection</h3>
               <div className="hotCollections__author disflex acenter">
@@ -51,9 +57,9 @@ const Hotcollections = () => {
             <div className="hotCollections__block">
             <img src={img3} alt="" className="top_img"/>
               <div className="bottom-images disflex acenter">
-                <div className="first"></div>
-                <div className="second"></div>
-                <div className="third"></div>
+              <img src={first} className='first' alt="" />
+                <img src={twi} className='second' alt="" />
+                <img src={tres} className='third' alt="" />
               </div>
               <h3 className="subtitle">Awesome collection</h3>
               <div className="hotCollections__author disflex acenter">

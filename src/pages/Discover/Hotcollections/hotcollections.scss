@@ -31,24 +31,24 @@
     .bottom-images {
       justify-content: space-between;
       margin-top: 8px;
-      .first {
-        background-image: url("../../../../images/discover/hot-collections/spida.png");
-        &.dva {
-          background-image: url("../../../../images/discover/hot-collections/one.png");
-        }
-      }
-      .second {
-        background-image: url("../../../../images/discover/hot-collections/02-1.png");
-        &.dva {
-          background-image: url("../../../../images/discover/hot-collections/twi.png");
-        }
-      }
-      .third {
-        background-image: url("../../../../images/discover/hot-collections/02-2.png");
-        &.dva {
-          background-image: url("../../../../images/discover/hot-collections/tres.png");
-        }
-      }
+      // .first {
+      //   // background-image: url("../../../../images/discover/hot-collections/spida.png");
+      //   &.dva {
+      //     // background-image: url("../../../../images/discover/hot-collections/one.png");
+      //   }
+      // }
+      // .second {
+      //   background-image: url("../../../../images/discover/hot-collections/02-1.png");
+      //   &.dva {
+      //     background-image: url("../../../../images/discover/hot-collections/twi.png");
+      //   }
+      // }
+      // .third {
+      //   background-image: url("../../../../images/discover/hot-collections/02-2.png");
+      //   &.dva {
+      //     background-image: url("../../../../images/discover/hot-collections/tres.png");
+      //   }
+      // }
       .first,
       .second,
       .third {
