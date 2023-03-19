@@ -9,7 +9,7 @@ const EditProfile = () => {
       <div className="upload__head prof_head">
         <div className="container">
           <div className="upload__head_inner disflex acenter">
-            <Link to="/" className="back_home-btn acenter disflex">
+            <Link to="/profile" className="back_home-btn acenter disflex">
               <b className="prev"></b>
               <p>Back to profile</p>
             </Link>

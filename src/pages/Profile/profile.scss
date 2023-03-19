@@ -44,7 +44,7 @@
         gap: 13px;
         color: #fcfcfd;
         font-size: 14px;
-    }
+      }
       @media (max-width: 912px) {
         padding-bottom: calc(var(--padding) + 104px);
       }
@@ -116,8 +116,8 @@
         @media (max-width: 707px) {
           display: flex;
           height: 28px;
-          overflow-x: auto;
-          &::-webkit-scrollbar{
+          // overflow-x: auto;
+          &::-webkit-scrollbar {
             width: 0;
           }
         }
@@ -137,16 +137,19 @@
               flex-wrap: wrap;
             }
             @media (min-width: 1272px) {
-              &> div:nth-child(4) {
+              & > div:nth-child(4) {
                 display: none;
               }
             }
-            .hotbid__cards.card{
+            .hotbid__cards.card {
               @media (max-width: 614.5px) {
-                .card_img{
+                .card_img {
                   position: relative;
-                  &>img{
+                  & > img {
                     width: 170%;
+                    @media (max-width: 375px) {
+                    transform: translateX(-30px);
+                    }
                     @media (max-width: 480px) {
                       width: 160%;
                     }
@@ -157,16 +160,16 @@
                   }
                 }
                 width: 100%;
-                .hotbid__cards_description{
+                .hotbid__cards_description {
                   margin: 0;
                 }
               }
               @media (min-width: 607px) {
-                  max-width: 255.5px;
+                max-width: 255.5px;
               }
             }
             @media (max-width: 912.5px) {
-                justify-content: center;
+              justify-content: center;
             }
           }
         }
@@ -176,12 +179,12 @@
   small {
     font-size: 12px;
   }
-  .more{
+  .more {
     width: 100%;
     display: flex;
     justify-content: center;
     place-content: center;
-    img{
+    img {
       cursor: pointer;
       display: block;
     }
