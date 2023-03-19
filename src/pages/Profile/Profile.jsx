@@ -22,7 +22,7 @@ const Profile = () => {
               Edit cover photo <img src={imgIcon} alt="" />
             </div>
             <div className="btn-blue tcenter dmsans f700">
-              <Link className="likewhite">Edit profile <img src={editIcon} alt="" /></Link>
+              <Link className="likewhite" to='/profile/edit-profile'>Edit profile <img src={editIcon} alt="" /></Link>
             </div>
           </div>
         </div>

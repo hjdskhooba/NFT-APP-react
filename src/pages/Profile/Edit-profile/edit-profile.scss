@@ -1,0 +1,186 @@
+.profile__edit {
+  .edit-profile__inner {
+    @media (min-width: 1024px) {
+      margin: 0 auto;
+      max-width: 736px;
+    }
+    @media (min-width: 707px) {
+      padding: 60px 0 126px;
+    }
+    & > p {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 64px;
+      @media (min-width: 1024px) {
+        max-width: 378px;
+        margin-left: auto;
+      }
+    }
+    .btns {
+      padding-top: 40px;
+      margin-top: 40px;
+      border-top: 1px solid #b1b5c4;
+      & button {
+        font-family: poppins;
+        font-weight: 700px;
+      }
+      & button:nth-child(2):hover {
+        color: #e6e8ec;
+      }
+      & button:nth-child(2) {
+        align-items: center;
+        gap: 8px;
+        border: none;
+        color: #777e91;
+      }
+      @media (min-width: 388px) and (max-width: 1024px) {
+        display: flex;
+        button {
+          width: 158px;
+          height: 48px;
+        }
+      }
+      @media (min-width: 1024px) {
+        max-width: 378px;
+        display: flex;
+        margin-left: auto;
+        button {
+          width: 158px;
+          height: 48px;
+          padding: 16px 24px;
+        }
+      }
+    }
+  }
+  .f14 {
+    font-size: 13px;
+  }
+  .btn-blue {
+    text-align: center;
+    justify-content: center;
+  }
+  textarea {
+    width: 352px;
+    height: 96px;
+    resize: none;
+    padding: 12px 16px 0;
+  }
+  .fordfdn {
+    gap: 32px;
+    display: block;
+    @media (min-width: 1024px) {
+      display: flex;
+    }
+  }
+  .edit_photo {
+    width: 352px;
+    height: 148px;
+    @media (max-width: 423px) {
+      max-width: 311px;
+      max-height: 128px;
+      gap: 16px;
+      margin-bottom: 30px;
+    }
+    gap: 32px;
+    .acc-ava {
+      padding: 0;
+      margin: 0;
+      background-size: cover;
+      width: 212px;
+      height: 128px;
+      @media (max-width: 800px) {
+        width: 70px;
+        height: 64px;
+      }
+      background-color: green;
+    }
+    & div:nth-child(2) > small {
+      display: flex;
+      font-size: 12px;
+      margin: 8px 0 16px;
+    }
+    button {
+      width: 80px;
+      height: 40px;
+      padding: 12px 16px;
+    }
+  }
+  .block {
+    display: grid;
+    small {
+      font-size: 12px;
+      color: #b1b5c4;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-family: poppins;
+      margin: 32px 0 12px;
+    }
+    input {
+      padding: 12px 16px;
+    }
+    input::placeholder,
+    textarea::placeholder {
+      font-weight: 500;
+      font-size: 14px;
+      color: #777e91;
+      font-family: poppins;
+    }
+    input,
+    textarea {
+      border: 2px solid #e6e8ec;
+      border-radius: 12px;
+    }
+  }
+  .acc__settings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 40px;
+    .acc_info,
+    .acc_social {
+      @media (max-width: 423px) {
+        width: 100%;
+        textarea {
+          width: 100%;
+        }
+      }
+    }
+    .acc_info > .btn-blue {
+      gap: 12px;
+      width: 230px;
+      height: 40px;
+      padding: 12px 16px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .acc_info > .btn-blue:hover > span {
+      color: white;
+      cursor: pointer;
+    }
+    .acc_social {
+      width: 100%;
+      input[placeholder="@twitter username"] {
+        & + button {
+          width: 120px;
+          height: 32px;
+          padding: 8px;
+          padding-left: 12px;
+          margin-left: 60%;
+          transform: translateY(-37.5px);
+        }
+      }
+    }
+    @media (min-width: 770px) and (max-width: 1024px) {
+      flex-wrap: nowrap;
+    }
+    @media (max-width: 770px) {
+      justify-content: center;
+      .acc_info {
+        width: 100%;
+        textarea {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
