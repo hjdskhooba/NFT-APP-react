@@ -12,18 +12,10 @@ const Discover = () => {
       setValue(+e.target.value[0] + 1);
     }
   };
-  const fun = (e) => {
-    if (e.target.className == "discover__body") {
-      e.target.childNodes[3].childNodes[0].childNodes[0].childNodes[0].childNodes[0].src =
-        "../../../../images/discover/discover/16.png";
-      e.target.childNodes[3].childNodes[0].childNodes[1].childNodes[0].childNodes[0].src =
-        "../../../../images/discover/discover/product img.png";
-    }
-  };
   return (
     <div className="discover">
       <div className="container">
-        <div className="discover__inner" onMouseOver={(e) => fun(e)}>
+        <div className="discover__inner">
           <h2 className="title">Discover</h2>
           <div className="discover__body">
             <div className="discover__body_head">
